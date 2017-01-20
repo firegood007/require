@@ -1,0 +1,16 @@
+{
+  "name": "PLD",
+  "version": "1.0.0",
+  "description": "light",
+  "main": "Gruntfile.js",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "grunt": "^1.0.1",
+    "grunt-contrib-less": "^1.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rory wu",
+  "license": "ISC"
+}

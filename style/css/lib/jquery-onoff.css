@@ -1,0 +1,5 @@
+.onoff-wrap{width:54px;height:32px;border-radius:16px;overflow:hidden;}
+.onoff-box{position:relative;}
+.onoff-box-on{width:54px;height:32px;border-radius:16px;position:absolute;top:0;left:0;background:#2996CC;}
+.onoff-box-center {width:32px;height:32px;border-radius:16px;position:absolute;top:0;left:22px;background:#fff;border:1px solid #dbdbdb;z-index:99;}
+.onoff-box-off{width:54px;height:32px;border-radius:16px;position:absolute;top:0;right:-22px;background:#B8B8B8;}

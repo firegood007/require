@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* 加载字体 */
+@import url("/font-awesome/css/font-awesome.min.css");
+/* 设置公用样式 */
+html,body{height:100%;width:100%;overflow-y:hidden;}
+a {text-decoration:none;}
+*{margin:0;padding:0;box-sizing:border-box;}
+div{}
+body{font-family: "微软雅黑";}
+.grey{color:#85888C;}
+.blue {color:#2996CC;}
+.logo{background:url('/images/logo.png');float: left;width: 41px;height: 41px;margin-top: 10px;}
+.emai-login{float:right; padding-top: 5px;margin-right:55px;}
+.emai-login>i{font-size:18px;}
+.fa-sign-out{margin-left:27px;}
+ul,li{list-style:none;}
+
+/*border:#D9DEE4;  color:2796CC*/
+.banner {width:100%;min-width:1080px;background:#282D35;height:64px;line-height:60px; color: #85888C;font-size:12px;}
+.banner-box {width:1080px;margin:0 auto;height:100%;}
+.banner-box>ul{margin-left:110px;width:750px;float:left;}
+.banner-box .active{border-bottom:4px solid #2996CC;color:#85888C;}
+.banner-box .active a,.banner-box .active i{color:#fff;}
+.banner-item {display:inline-block;height:60px;list-style:none;padding:0 10px;cursor: pointer;box-sizing:content-box;}
+.banner-item a,.banner-item i{display:inline-block;vertical-align:middle;}
+.banner-item i{font-size:18px;}
+.banner-item:hover{border-bottom:4px solid #2996CC;}
+.banner-item:hover a, .banner-item:hover i{color:#fff;}
+.banner-item>a {color: #85888C;}
+.banner-item>a>i{padding-right:10px;}
+
+
+#graph_area .morris-hover.morris-default-style {
+  padding: 6px;
+  color: #666;
+  background: rgba(243,242,243,0.8);
+  border: solid 2px rgba(195,194,196,0.8);
+  font-family: sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+#graph_area .morris-hover {
+position: absolute;
+z-index: 1000;
+}
+
+.content{width:100%;height:calc(100% - 60px);overflow:auto;padding-top:34px; font-size:13px;background:#F7F7F7;}
+.white {background:#fff;}
+.content-title{height:56px;color:#2796CC;line-height:70px;text-align:left;border-bottom:1px solid #D9DEE4;}
+
+.loading{position:absolute;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.2);display:none;}
+.loading-animate{width:30px;height:30px;background:url('../image/loading.gif');background-size:100% 100%;left:50%;margin-left:-15px;top:50%;margin-top:-15px;position:absolute;}
+.btn {width:144px;height:36px;text-align:center;line-height:36px;border:none;background:#2996CC;color:#fff;border-radius:3px;cursor:pointer;}

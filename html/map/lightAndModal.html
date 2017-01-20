@@ -1,0 +1,63 @@
+
+	<span>工作功率：&nbsp;<span class="black">56w</span></span>
+	<span>工作电压：&nbsp;<span class="black">220v</span></span>
+	<span>工作电流：&nbsp;<span class="black">760mA</span></span>
+	<span>功率因数：&nbsp;<span class="black">0.97</span></span>
+	<span>工作场强：&nbsp;<span class="black">100dbm</span></span>
+	<span>工作状态：&nbsp;<span class="black">正常开启[90%]</span></span>
+	<span>
+		<button type="button" class="btn-common more bounceInDown">更多</button>
+		<div id="Hbox" class="animated zoomOut white" style="display:none">
+	        <ul id="tabs">
+	        	<li data-tab="actual">实时数据</li>
+	        	<li data-tab="device">设备信息</li>
+	        </ul>
+	        <div class="Hbox-title">ELT010设备信息 [所属分组：分组1]</div>
+			<div id="tabsContent">
+				<div data-tab="actual">
+					<div class="data-tab-item">
+						<div class="data-tab-item-title">
+							<span>实时功率</span>
+							<span class="data-tab-item-right">56w</span>
+						</div>
+						
+						<div class="data-tab-item-pic">
+							 <canvas id="lineChart"></canvas>
+						</div>
+					</div>
+				</div>
+				<div data-tab="device">
+					<div class="data-tab-device">
+						<span>设备身份码</span><span>额定功率</span><span>工作功率</span><span>工作电流</span><span>工作电压</span>
+						<span>最近工作时长</span><span>当前状态</span><span>平均功率</span><span>累计工作时长</span><span>累计节能比例</span><span>累计节能费用</span>
+					</div>
+					<div class="data-tab-deviceData">
+						<span>ELT010</span><span>60w</span><span>46w</span><span>750mA</span><span>220v</span>
+						<span>453分钟</span><span>开 [80%]</span><span>40w</span><span>4458小时</span><span>80%</span><span>4568.00</span>
+					</div>
+					<div class="data-tab-device">
+						<span>人员感知</span>
+						<span>未激活亮度</span>
+						<span>激活亮度</span>
+						<span>延迟</span>
+						<span>日光传感器</span>
+						<span>光线触发上限</span>
+						<span>光线触发下限</span>
+						<span>上限亮度</span>
+						<span>下限亮度</span>
+					</div>
+					<div class="data-tab-deviceData">
+						<span>有</span>
+						<span><input disabled="true" value='10%'/><span class="editor">编辑</span></span>
+						<span><input disabled="true" value='90%'/><span class="editor">编辑</span></span>
+						<span><input disabled="true" value='15'/>秒<span class="editor">编辑</span></span>
+						<span>有</span>
+						<span><input disabled="true" value='200'/><span class="editor">编辑</span></span>
+						<span><input disabled="true" value='70'/><span class="editor">编辑</span></span>
+						<span><input disabled="true" value='20%'/><span class="editor">编辑</span></span>
+						<span><input disabled="true" value='60%'/><span class="editor">编辑</span></span>
+					</div>
+				</div>
+			</div>
+	    </div>
+	</span>

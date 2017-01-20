@@ -1,0 +1,35 @@
+{{#if data}}
+	<div class="content-config-pic white">
+		<div class="content-config-pic-title">厂房图纸</div>
+		<div class="content-config-pic-content">
+			{{#each allLight}}
+				<div class="content-config-pic-item group_{{group}}"><i class="config-{{sta}}"></i></div>
+			{{/each}}
+		</div>
+	</div>	
+	<div class="content-config-set white">
+		<div class="content-title content-config-set-head">手动复选</div>
+		<div class="content-config-switch config-in-style">
+			<div>开关</div>
+			<div class="content-config-switch-off">关</div>
+			<div class="content-config-switch-pic">
+				<input type="checkbox"  class="js_switch switch-auto"/>
+			</div>
+			<div class="content-config-switch-on">开</div>
+		</div>
+		<div class="content-config-dimmer config-in-style">
+			<div>调光</div>
+			<div class="content-config-dimmer-box">
+				<input class="knob" data-width="130" data-height="130" data-displayPrevious=true data-fgColor="#2996CC" data-skin="tron" data-thickness=".2" value="75">
+			</div>
+		</div>
+		<div class="content-config-check config-in-style">
+			<div>自检</div>
+			<div class="content-config-switch-off">关</div>
+			<div class="content-config-switch-pic1">
+				<input type="checkbox"  class="js_switch switch-hand"/>
+			</div>
+			<div class="content-config-switch-on">开</div>
+		</div>
+	</div>
+{{/if}}

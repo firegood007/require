@@ -1,0 +1,108 @@
+<!-- 照明数据 -->
+{{#if data}}
+<div class="content-num">
+	<div>
+		<div class="content-num-icon"><i class="fa fa-clock-o fa-2x"></i></div>
+		<div class="content-num-wrap">
+			<span class="content-num-num">{{data.hours}}</span>
+			<span>小时</span><br>
+			<span class="content-num-msg">智慧流明为您累计服务时长</span>
+		</div>
+	</div>
+	<div>
+		<div class="content-num-icon"><i class="fa fa-bolt fa-2x"></i></div>
+		<div class="content-num-wrap">
+			<span class="content-num-num">{{data.power}}</span>
+			<span>KWH</span><br>
+			<span class="content-num-msg">已为您累计节省照明耗能</span>
+		</div>
+	</div>
+	<div>
+		<div class="content-num-icon"><i class="fa fa-cny fa-2x"></i></div>
+		<div class="content-num-wrap">
+			<span class="content-num-num">{{data.money}}</span>
+			<span>RMB</span><br>
+			<span class="content-num-msg">已为您累计节省照明电费</span>
+		</div>
+	</div>
+	<div>
+		<div class="content-num-icon"><i class="fa fa-soundcloud fa-2x"></i></div>
+		<div class="content-num-wrap">
+			<span class="content-num-num">{{data.co}}</span>
+			<span>吨</span><br>
+			<span class="content-num-msg">已为您累计减少二氧化碳排放量</span>
+		</div>
+	</div>
+</div>
+{{/if}}
+
+<!-- 性能百分比 -->
+<div class="content-show">
+	<div class="content-show-title content-title">当前系统工作能耗</div>
+	<div class="content-show-body">
+		<div class="content-show-pic" data-num="2.34KW">
+			<span class="content-show-fact" style="width:39%" data-show="39%" data-class="content-show-fact">
+				
+			</span><span class="content-show-day" style="width:21%" data-show="21%" data-class="content-show-day">
+				
+			</span><span class="content-show-hand" style="width:11%" data-show="11%" data-class="content-show-hand">
+				
+			</span><span class="content-show-person" style="width:19%" data-show="19%" data-class="content-show-person">
+				
+			</span><span class="content-show-sence" style="width:10%" data-show="10%" data-class="content-show-sence"></span>
+			<div class="content-show-pic-msg">
+				<span>实时照明功率：2.34KW/4.78KW</span>
+				<span>[照明系统额定总功率位：4.78KW]</span>
+			</div>
+		</div>
+		<div class="content-show-pic" data-num="34.68KWH">
+			<span class="content-show-fact" style="width:21%" data-show="39%" data-class="content-show-fact">
+				
+			</span><span class="content-show-day" style="width:39%" data-show="21%" data-class="content-show-day">
+				
+			</span><span class="content-show-hand" style="width:11%" data-show="11%" data-class="content-show-hand">
+				
+			</span><span class="content-show-person" style="width:10%" data-show="19%" data-class="content-show-person">
+				
+			</span><span class="content-show-sence" style="width:19%" data-show="10%" data-class="content-show-sence"></span>
+			<div class="content-show-pic-msg">
+				<span>当日使用照明能耗：34.68KWH;当日节省照明能耗：84.92KWH;</span>
+				<span>[截止当前时刻]</span>
+			</div>
+		</div>
+	</div>
+	<div class="content-show-bottom">
+		<div><i class="content-show-fact"></i><span>实际照明能耗</span></div>
+		<div><i class="content-show-day"></i><span>日光感应节省</span></div>
+		<div><i class="content-show-hand"></i><span>手动控制节省</span></div>
+		<div><i class="content-show-person"></i><span>人员感应节省</span></div>
+		<div><i class="content-show-sence"></i><span>场景管理节省</span></div>
+	</div>
+</div>
+
+<div class="content-show_1">
+	<div class="content-show_1-pic">
+		<div class="content-title">当日照明能耗</div>
+		<div id="graph_area" style="width:610px;height:180px;"></div>
+		<div class="content-show_1-ex">
+			<div><i class="content-show_1-fact"></i><span>实际照明能耗</span></div>
+			<div><i class="content-show_1-save"></i><span>实际照明能耗</span></div>
+		</div>
+	</div>
+	<div class="content-show_1-msg">
+		<div class="content-title">当日系统信息纵览</div>
+		<div class="content-show_1-msg-body">
+			<div class="content-show_1-msg-title">当前工作照明设备数量：</div>
+			<div class="content-show_1-msg-con">132套&nbsp;[总数：260套]</div>
+			<div class="content-show_1-msg-title">当前激活场景：</div>
+			<div class="content-show_1-msg-con">一周工作日场景</div>
+			<div class="content-show_1-msg-title">采用当前激活场景的应用设备分组：</div>
+			<div class="content-show_1-msg-con">全部分组</div>
+			<div class="content-show_1-msg-title">故障风险照明设备数量：</div>
+			<div class="content-show_1-msg-con">4</div>
+		</div>
+	</div>
+</div>
+<div class="content-list">
+	<div class="content-title">故障风险照明设备</div>
+</div>

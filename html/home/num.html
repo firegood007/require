@@ -1,0 +1,37 @@
+<!-- 照明数据 -->
+{{#if data}}
+
+	<div>
+		<div class="content-num-icon"><i class="fa fa-clock-o fa-2x"></i></div>
+		<div class="content-num-wrap">
+			<span class="content-num-num">{{data.hours}}</span>
+			<span>小时</span><br>
+			<span class="content-num-msg">智慧流明为您累计服务时长</span>
+		</div>
+	</div>
+	<div>
+		<div class="content-num-icon"><i class="fa fa-bolt fa-2x"></i></div>
+		<div class="content-num-wrap">
+			<span class="content-num-num">{{data.power}}</span>
+			<span>KWH</span><br>
+			<span class="content-num-msg">已为您累计节省照明耗能</span>
+		</div>
+	</div>
+	<div>
+		<div class="content-num-icon"><i class="fa fa-cny fa-2x"></i></div>
+		<div class="content-num-wrap">
+			<span class="content-num-num">{{data.money}}</span>
+			<span>RMB</span><br>
+			<span class="content-num-msg">已为您累计节省照明电费</span>
+		</div>
+	</div>
+	<div>
+		<div class="content-num-icon"><i class="fa fa-soundcloud fa-2x"></i></div>
+		<div class="content-num-wrap">
+			<span class="content-num-num">{{data.co}}</span>
+			<span>吨</span><br>
+			<span class="content-num-msg">已为您累计减少二氧化碳排放量</span>
+		</div>
+	</div>
+
+{{/if}}

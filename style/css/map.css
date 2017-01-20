@@ -1,0 +1,75 @@
+/*border:#D9DEE4;  color:2796CC*/
+
+
+.btn-common{width: 35px;height: 20px;border: none;background: #2796CC;font-size: 12px;color: #fff;border-radius: 5px;cursor:pointer;}
+/* .content-config-head 开始 */
+.content>.map{width:966px;margin:0 auto; margin-bottom:20px;}
+.content-config-head {height:65px;margin:0 auto; font-size:13px;}
+.content-config-head-left{width:620px;height:100%;border:1px solid #D9DEE4;float:left;line-height:65px;}
+.con-select{width:280px;height:32px;outline:none;border:1px solid #D9DEE4;margin-left:20px;padding-left:10px;color:#85888C;}
+
+.content-config-head-right{width:326px;height:100%;border:1px solid #D9DEE4;float:right;line-height:65px;padding:0 20px; color:#85888C;}
+.content-config-head-right>span {margin-right:8px;}
+.content-config-head-right>span:last-child{margin-right:0;}
+.content-config-head-right i{border-radius:50%;width:10px;height:10px;display:inline-block;margin-right:5px;}
+.config-green{background:#22B400;}
+.config-red{background:#FF2116;}
+.config-grey{background:#A8A8B7;}
+.config-black{background:#000}
+
+/* .content-config-head 结束 */
+/* content-config-body 开始 */
+.config-in-style { color:#85888C;border-bottom:1px solid #D9DEE4;width:100%;padding-top:12px;}
+
+.content-config-body {height:490px;}
+.content-config-pic-content{ padding:25px 50px 0 50px;}
+.content-config-pic {width:695px;height:100%;border:1px solid #D9DEE4;float:left;}
+.content-config-pic-item{width:24px;height:24px;border-radius:5px;display:flex;justify-content:center;align-items:center;float:left;margin:6px;cursor:pointer;}
+.content-config-pic-item>i{border-radius:50%;width:10px;height:10px;display:inline-block;}
+.group_1{background:#663300}
+.group_2{background:#008C8C}
+.group_3{background:#5900B2}
+.group_4{background:#663300}
+.group_5{background:#008C8C}
+.content-config-set {width:250px;float:right;padding:0 24px;border:1px solid #D9DEE4;height:100%;}
+.content-config-set-head{text-align:center;color:#2796CC; font-size:14px;}
+.content-config-switch{height:86px;}
+.content-config-dimmer{height:182px;}
+.content-config-dimmer-box{position:relative;width:140px;height:140px;margin-left: 40px;margin-top: 10px;}
+.content-config-check{height:165px; border:none;}
+/* content-config-body 结束 */
+
+/* content-config-express开始 */
+.content-config-express {height:66px;border:1px solid #D9DEE4;line-height:66px;}
+.content-config-express>span{margin-left:22px;color:#85888C;}
+.black{color:#000;font-weight:600;}
+.content-config-switch-on,.content-config-switch-pic,.content-config-switch-pic1,.content-config-switch-off{margin-top:10px;display:inline-block;vertical-align:middle;}
+.content-config-switch-pic,.content-config-switch-pic1{cursor:pointer;}
+.content-config-switch-off{margin-left:60px;}
+.content-config-pic-title{color:#2796CC;text-align:center;margin-top:20px;}
+/* content-config-express结束 */
+
+
+
+/* 弹框样式开始 */
+#Hbox{color:#85888C;font-size:13px;padding:30px;line-height:normal;}
+#tabs{height:39px;}
+#tabs>[data-tab]{display:inline-block;width:88px;height:39px;vertical-align:top;color:#000;border:1px solid #D9DEE4;text-align:center;line-height:39px;}
+#tabs>[data-tab].active{border:none;color:#fff;background:#2996CC;}
+.Hbox-title{width:100%;height:65px;border-bottom:1px solid #D9DEE4;line-height:75px;color:#2796CC;padding-left:20px;}
+#tabsContent{width:00%;height:100%;}
+#tabsContent>[data-tab]{width:100%;height:100%;display:none;}
+#tabsContent>[data-tab].active{display:block;}
+/* 弹框样式结束 */
+.data-tab-item{width:235px;height:188;padding:15px;border:1px solid #D9DEE4;margin-top:26px;margin-right:22px;}
+.data-tab-item:nth-child(4n+4){margin-right:0;}
+.data-tab-item>span{display:inline-block;width:auto;}
+.data-tab-item-right{float:right;}
+.data-tab-item-title{width:100%;height:30px;border-bottom:1px solid #D9DEE4;}
+.data-tab-item-pic {margin-top:20px;}
+.data-tab-device,.data-tab-deviceData{display:flex;width:976px;font-size:12px;height:36px;line-height:36px;text-align:center;}
+.data-tab-deviceData {background: #fff;color:#000;}
+.data-tab-device>span,.data-tab-deviceData>span{flex:1;}
+.data-tab-deviceData>span input{text-align:center;width:35px;text-align:right;border:none;background:none;outline:none;}
+.data-tab-deviceData>span input.active{border:1px solid #333;}
+.data-tab-deviceData>span span{text-align:center;margin-left:10px;background: #2996CC;padding: 2px 5px;border-radius: 5px;color:#fff;}
